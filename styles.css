@@ -1,0 +1,108 @@
+body {
+  background-color: #efefef;
+  margin: 0px;
+  color: #343434;
+  font-weight: lighter;
+  font-family: futura;
+}
+
+a {
+	color: #343434;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+  background-color: black;
+  color: white;
+}
+
+#content {
+	width: 40%;
+  min-width: 40%;
+  min-height: 100%;
+	margin-right: 30%;
+	margin-left: 30%;
+	margin-top: 5%;
+	border: 1px solid #343434;	
+	border-top: none;
+	border-bottom: none;
+	text-align: center;
+	
+}
+#tweet-wrapper {
+  width: 80%;
+  text-align: left;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+#time-sent {
+  padding-top: 10px;
+  text-align: right;
+	font-style: italic;
+	font-size: 10px;
+}
+
+#user-style {
+  letter-spacing: .1em;
+}
+
+#msg-style {
+  font-size: 14px;
+  letter-spacing: .1em;
+}
+
+button {
+   border: 1px solid #ffffff;
+   border-bottom: 1px solid black;
+   background: #ffffff;
+   letter-spacing: .5em;
+   word-spacing: .5em;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+   background: -webkit-linear-gradient(top, #ffffff, #ffffff);
+   background: -moz-linear-gradient(top, #ffffff, #ffffff);
+   background: -ms-linear-gradient(top, #ffffff, #ffffff);
+   background: -o-linear-gradient(top, #ffffff, #ffffff);
+   padding: 8px 16px;
+   -webkit-border-radius: -1px;
+   -moz-border-radius: -1px;
+   border-radius: -1px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0px 0px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 0px 0;
+   color: #000000;
+   font-size: 21px;
+   text-decoration: none;
+   vertical-align: middle;
+   margin-top: -1px;
+   margin-left: 4% auto;
+   margin-right: 4% auto;
+   width: 100%;
+   margin-bottom: 20px;
+   }
+button:hover {
+   border-top-color: #000000;
+   background: #000000;
+   color: #ffffff;
+   border: 0px;
+   border-top: 2px solid black;
+   border-bottom: 1px solid darkgray;
+   }
+button:active {
+   border-top-color: #ffffff;
+   background: #ffffff;
+   color: #000000;
+   }
+
+#avatar {
+  width: 100px;
+  height: 100px;
+  background: url(https://twimg0-a.akamaihd.net/profile_images/57704148/Untitled-1.png) no-repeat center center fixed;
+
+}
+
+div.tweetStyle {
+	width: 100%;
+	min-height: 100%;
+	padding: 50px 0 50px 0;
+}
